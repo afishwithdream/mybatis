@@ -3,9 +3,9 @@
         PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
-<!--    //配置环境-->
+<!--    //配置环境,default ID为加载时默认的sql环境,根据需要配置多个mysql环境,选择id来加载mysql-->
     <environments default="mysqlConfig">
-        <environment id="mariadb">
+        <environment id="mysqlConfig">
 <!--            //事务类型-->
             <transactionManager type="JDBC"></transactionManager>
 <!--            //连接池-->
@@ -13,13 +13,16 @@
 <!--                //连接数据库四个信息-->
                 <property name="driver" value="org.mariadb.jdbc.Driver"/>
                 <property name="url" value="jdbc:mariadb://127.0.0.1:3306/user"/>
-                <property name="username" value="wind@localhost"/>
+                <property name="username" value="wind"/>
                 <property name="password" value="cl100869011A"/>
             </dataSource>
         </environment>
     </environments>
-<!--    映射文件配置-->
+<!--    映射文件配置XML指定数据库查询语句时,指定xml文件.
+        注解配置时,指定dao.class文件
+-->
     <mappers>
-        <mapper resource="Userdao/userDao.xml"></mapper>
+        <!--<mapper resource="userDao.xml"></mapper>-->
+        <mapper class="userDao.dao"></mapper>
     </mappers>
 </configuration>
