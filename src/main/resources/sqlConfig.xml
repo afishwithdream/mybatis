@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+<!--    //配置环境-->
+    <environments default="mysqlConfig">
+        <environment id="mariadb">
+<!--            //事务类型-->
+            <transactionManager type="JDBC"></transactionManager>
+<!--            //连接池-->
+            <dataSource type="POOLED">
+<!--                //连接数据库四个信息-->
+                <property name="driver" value="org.mariadb.jdbc.Driver"/>
+                <property name="url" value="jdbc:mariadb://127.0.0.1:3306/user"/>
+                <property name="username" value="wind@localhost"/>
+                <property name="password" value="cl100869011A"/>
+            </dataSource>
+        </environment>
+    </environments>
+<!--    映射文件配置-->
+    <mappers>
+        <mapper resource="Userdao/userDao.xml"></mapper>
+    </mappers>
+</configuration>

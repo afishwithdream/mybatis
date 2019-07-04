@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace,dao的位置-->
+<mapper namespace="Userdao.dao">
+<!--配置查询 id为方法,dao中的方法名-->
+    <select id="findAll" resultType="domain.User">
+        select * from tab_user;
+    </select>
+</mapper>
