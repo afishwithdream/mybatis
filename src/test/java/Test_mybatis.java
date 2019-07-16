@@ -84,4 +84,41 @@ public class Test_mybatis {
         sqlSession.close();
         inputStream.close();
     }
+
+    @Test
+    public void del() throws IOException {
+        User user = new User();
+        //设置要删除的Id
+        user.setId(2);
+        InputStream inputStream = Resources.getResourceAsStream("sqlConfig.xml");
+        SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
+        SqlSession sqlSession = sqlSessionFactory.openSession();
+        dao dao = sqlSession.getMapper(userDao.dao.class);
+        //删除
+        dao.del(user);
+        //提交事务 关流
+        sqlSession.commit();
+        sqlSession.close();
+        inputStream.close();
+    }
+
+    @Test
+    public void selectById() throws IOException {
+        /*User user = new User();
+        //设置查询的Id
+        模糊查询,("%aa%");
+        user.setId(7);*/
+        InputStream inputStream = Resources.getResourceAsStream("sqlConfig.xml");
+        SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
+        SqlSession sqlSession = sqlSessionFactory.openSession();
+        dao dao = sqlSession.getMapper(userDao.dao.class);
+        //更新
+        List<User> list = dao.selectById(7);
+        for (User user1 : list) {
+            System.out.println(user1);
+        }
+        sqlSession.close();
+        inputStream.close();
+    }
+
 }

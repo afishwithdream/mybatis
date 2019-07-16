@@ -71,8 +71,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Test_mybatis.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="81" column="17" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="17" />
+            <state relative-caret-position="284">
+              <caret line="106" column="34" selection-start-line="106" selection-start-column="34" selection-end-line="106" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,8 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/userDao/dao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+            <state relative-caret-position="474">
+              <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,7 +114,7 @@
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e53af34b-19a4-4d1b-9446-665c4241695b/console.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="132">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -332,7 +332,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Test_mybatis.findAll">
+  <component name="RunManager" selected="JUnit.Test_mybatis.selectById">
     <configuration name="Test_mybatis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test_mybatis" />
       <module name="mybatis_01" />
@@ -340,11 +340,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_mybatis.addUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_mybatis.del" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis_01" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Test_mybatis" />
-      <option name="METHOD_NAME" value="addUser" />
+      <option name="METHOD_NAME" value="del" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -355,6 +355,16 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Test_mybatis" />
       <option name="METHOD_NAME" value="findAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_mybatis.selectById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_01" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test_mybatis" />
+      <option name="METHOD_NAME" value="selectById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -372,10 +382,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Test_mybatis.selectById" />
         <item itemvalue="JUnit.Test_mybatis.findAll" />
+        <item itemvalue="JUnit.Test_mybatis.del" />
         <item itemvalue="JUnit.Test_mybatis.update" />
         <item itemvalue="Application.Test_mybatis" />
-        <item itemvalue="JUnit.Test_mybatis.addUser" />
       </list>
     </recent_temporary>
   </component>
@@ -393,26 +404,11 @@
       <workItem from="1562240511656" duration="15300000" />
       <workItem from="1562857454997" duration="3031000" />
       <workItem from="1563124411045" duration="4646000" />
-      <workItem from="1563281076305" duration="4395000" />
+      <workItem from="1563281076305" duration="5696000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_mybatis_addUser - 2019.07.16 at 21h 31m 16s.xml">
-      <configuration name="Test_mybatis.addUser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_mybatis_addUser - 2019.07.16 at 21h 39m 40s.xml">
-      <configuration name="Test_mybatis.addUser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_mybatis_addUser - 2019.07.16 at 21h 41m 51s.xml">
-      <configuration name="Test_mybatis.addUser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_mybatis_findAll - 2019.07.16 at 21h 43m 42s.xml">
-      <configuration name="Test_mybatis.findAll" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_mybatis_update - 2019.07.16 at 21h 54m 01s.xml">
-      <configuration name="Test_mybatis.update" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Test_mybatis_update - 2019.07.16 at 21h 55m 45s.xml">
       <configuration name="Test_mybatis.update" configurationId="JUnit" />
     </history-entry>
@@ -425,9 +421,27 @@
     <history-entry file="Test_mybatis_findAll - 2019.07.16 at 21h 57m 24s.xml">
       <configuration name="Test_mybatis.findAll" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Test_mybatis_del - 2019.07.16 at 22h 00m 44s.xml">
+      <configuration name="Test_mybatis.del" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_mybatis_del - 2019.07.16 at 22h 01m 20s.xml">
+      <configuration name="Test_mybatis.del" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_mybatis_findAll - 2019.07.16 at 22h 01m 27s.xml">
+      <configuration name="Test_mybatis.findAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_mybatis_selectById - 2019.07.16 at 22h 06m 29s.xml">
+      <configuration name="Test_mybatis.selectById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_mybatis_selectById - 2019.07.16 at 22h 07m 06s.xml">
+      <configuration name="Test_mybatis.selectById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_mybatis_selectById - 2019.07.16 at 22h 09m 20s.xml">
+      <configuration name="Test_mybatis.selectById" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33178000" />
+    <option name="totallyTimeSpent" value="34479000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-28" width="1920" height="1108" extended-state="0" />
@@ -442,7 +456,7 @@
       <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.16096257" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.32913843" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.29235238" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.29235238" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
@@ -450,7 +464,7 @@
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.32913843" />
-      <window_info active="true" anchor="bottom" id="Run" order="9" visible="true" weight="0.32720232" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.32720232" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
@@ -584,14 +598,14 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e53af34b-19a4-4d1b-9446-665c4241695b/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/userDao/dao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        <state relative-caret-position="474">
+          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -600,8 +614,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Test_mybatis.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="81" column="17" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="17" />
+        <state relative-caret-position="284">
+          <caret line="106" column="34" selection-start-line="106" selection-start-column="34" selection-end-line="106" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
