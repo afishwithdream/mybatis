@@ -2,6 +2,8 @@ package domain;
 
 import java.io.Serializable;
 
+
+//实现Serialzable借口,以封装成对象
 public class User implements Serializable {
     public Integer getId() {
         return id;
