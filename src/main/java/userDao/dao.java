@@ -1,10 +1,7 @@
 package userDao;
 
 import domain.User;
-import org.apache.ibatis.annotations.Delete;
-import org.apache.ibatis.annotations.Insert;
-import org.apache.ibatis.annotations.Select;
-import org.apache.ibatis.annotations.Update;
+import org.apache.ibatis.annotations.*;
 
 import java.util.List;
 
@@ -21,6 +18,8 @@ public interface dao {
     @Delete({"delete from tab_user where id = #{id}"})
     void del(User user);
     //id不与实体类一致,占位符. 执行语句的时候可以填入自己的参数
-    @Select("select * from tab_user where id = #{aid}")
+    @Select({"select * from tab_user where id = #{aid}"})
     List<User> selectById(Integer id);
+    @Select({"select * from tab_user where addr like#{myCondition}"})
+    List<User> selectLike(String addr);
 }

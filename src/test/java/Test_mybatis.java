@@ -1,4 +1,3 @@
-import org.apache.log4j.lf5.util.Resource;
 import org.junit.Test;
 import userDao.dao;
 import domain.User;
@@ -104,7 +103,7 @@ public class Test_mybatis {
 
     @Test
     public void selectById() throws IOException {
-        /*User user = new User();
+        /*User user = new User()
         //设置查询的Id
         模糊查询,("%aa%");
         user.setId(7);*/
@@ -121,4 +120,27 @@ public class Test_mybatis {
         inputStream.close();
     }
 
+    @Test
+    public void selectLike() throws IOException {
+        InputStream resources = Resources.getResourceAsStream("sqlConfig.xml");
+        SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(resources);
+        SqlSession sqlSession = sqlSessionFactory.openSession();
+        dao dao = sqlSession.getMapper(userDao.dao.class);
+        List<User> list = dao.selectLike("%京%");
+        for (User user : list) {
+            System.out.println(user);
+        }
+    }
+    /*
+    * 解决数据库字段与实体类查询条件名称不一致
+    * 1.别名
+    *   select user_name as userName from tab_user;
+    * 2.配置查询结果的列名和实体类属性名的对应关系
+    *   注解:
+    *   @Results(
+    *       @Result(property="userName",column="user_name");
+    *           ...
+    * )
+    *   配置XML文件
+    * */
 }
