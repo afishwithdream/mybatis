@@ -20,7 +20,7 @@
 <!--            //事务类型-->
             <transactionManager type="JDBC"></transactionManager>
 <!--            //连接池-->
-            <dataSource type="POOLED">
+            <dataSource type="POOLED" >
 <!--                //连接数据库四个信息-->
                 <!--引用上面property标签的信息 ${name}-->
                 <property name="driver" value="${driver}"/>
