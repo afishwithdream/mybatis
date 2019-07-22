@@ -3,6 +3,17 @@
         PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
+
+    <properties>
+        <property name="driver" value="org.mariadb.jdbc.Driver"/>
+        <property name="url" value="jdbc:mariadb://127.0.0.1:3306/user"/>
+        <property name="username" value="wind"/>
+        <property name="password" value="cl100869011A"/>
+    </properties>
+    <!--
+    <properties resource="$src"></properties> 引入外部properties文件,必须存在类路径下
+    -->
+
 <!--    //配置环境,default ID为加载时默认的sql环境,根据需要配置多个mysql环境,选择id来加载mysql-->
     <environments default="mysqlConfig">
         <environment id="mysqlConfig">
@@ -11,10 +22,11 @@
 <!--            //连接池-->
             <dataSource type="POOLED">
 <!--                //连接数据库四个信息-->
-                <property name="driver" value="org.mariadb.jdbc.Driver"/>
-                <property name="url" value="jdbc:mariadb://127.0.0.1:3306/user"/>
-                <property name="username" value="wind"/>
-                <property name="password" value="cl100869011A"/>
+                <!--引用上面property标签的信息 ${name}-->
+                <property name="driver" value="${driver}"/>
+                <property name="url" value="${url}"/>
+                <property name="username" value="${username}"/>
+                <property name="password" value="${password}"/>
             </dataSource>
         </environment>
     </environments>

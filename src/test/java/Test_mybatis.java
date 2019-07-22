@@ -19,6 +19,7 @@ public class Test_mybatis {
          * 3.使用工厂类生产SqlSession
          * 4.代理模式增强Dao接口
          * 5.查询数据库
+         *
          * 6.关流
          * */
         //获取配置文件的流对象
