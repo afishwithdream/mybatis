@@ -7,7 +7,7 @@ import java.util.List;
 
 public interface dao {
     //注解,sql语句
-    @Select("select * from tab_user")
+    //@Select("select * from tab_user")
     //查询方法
     List<User> findAll();
     //insert into 参数,#{实体类属性.}
