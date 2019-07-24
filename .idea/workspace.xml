@@ -43,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/domain/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="441">
+              <caret line="60" column="13" lean-forward="true" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -64,20 +64,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Test_DynamicSQL.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="373">
+              <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -94,8 +85,25 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/userDaoConf.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="130">
+              <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/domain/QueryIds.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#104#105#0" expanded="true" />
+                <element signature="e#134#135#0" expanded="true" />
+                <element signature="e#99#100#0" expanded="true" />
+                <element signature="e#125#126#0" expanded="true" />
+                <element signature="e#170#171#0" expanded="true" />
+                <element signature="e#200#201#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -120,8 +128,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dynamicSQL/DynamicSQLDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="408">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -132,8 +140,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e53af34b-19a4-4d1b-9446-665c4241695b/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+            <state relative-caret-position="99">
+              <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -144,8 +152,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Tag Library Descriptor" />
-        <option value="Interface" />
         <option value="HTML File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -176,10 +184,12 @@
         <option value="$PROJECT_DIR$/src/main/resources/userDao/userDaoConf.xml" />
         <option value="$PROJECT_DIR$/src/main/java/userDao/dao.java" />
         <option value="$PROJECT_DIR$/src/main/resources/sqlConfig.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/dynamicSQL/DynamicSQLDemo.java" />
         <option value="$PROJECT_DIR$/src/test/java/Test_mybatis.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/userDaoConf.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/dynamicSQL/QueryIds.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dynamicSQL/DynamicSQLDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/QueryIds.java" />
         <option value="$PROJECT_DIR$/src/test/java/Test_DynamicSQL.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/userDaoConf.xml" />
       </list>
     </option>
   </component>
@@ -380,7 +390,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="database.console.LAST_STATE" value="false" />
+    <property name="database.console.LAST_STATE" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/Userdao" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -412,7 +422,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Test_DynamicSQL.findAll">
+  <component name="RunManager" selected="JUnit.Test_DynamicSQL.findByIds">
     <configuration name="Test_DynamicSQL.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis_01" />
       <option name="PACKAGE_NAME" value="" />
@@ -423,11 +433,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_mybatis.del" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_DynamicSQL.findByIds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis_01" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Test_mybatis" />
-      <option name="METHOD_NAME" value="del" />
+      <option name="MAIN_CLASS_NAME" value="Test_DynamicSQL" />
+      <option name="METHOD_NAME" value="findByIds" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_DynamicSQL.findByUserCondition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_01" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test_DynamicSQL" />
+      <option name="METHOD_NAME" value="findByUserCondition" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -453,23 +473,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_mybatis.selectLike" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis_01" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Test_mybatis" />
-      <option name="METHOD_NAME" value="selectLike" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Test_DynamicSQL.findByIds" />
+        <item itemvalue="JUnit.Test_DynamicSQL.findByUserCondition" />
         <item itemvalue="JUnit.Test_DynamicSQL.findAll" />
         <item itemvalue="JUnit.Test_mybatis.findAll" />
         <item itemvalue="JUnit.Test_mybatis.selectById" />
-        <item itemvalue="JUnit.Test_mybatis.selectLike" />
-        <item itemvalue="JUnit.Test_mybatis.del" />
       </list>
     </recent_temporary>
   </component>
@@ -488,44 +498,44 @@
       <workItem from="1562857454997" duration="3031000" />
       <workItem from="1563124411045" duration="4646000" />
       <workItem from="1563281076305" duration="12276000" />
-      <workItem from="1563797024842" duration="10509000" />
+      <workItem from="1563797024842" duration="16458000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_mybatis_findAll - 2019.07.23 at 21h 41m 58s.xml">
-      <configuration name="Test_mybatis.findAll" configurationId="JUnit" />
+    <history-entry file="Test_DynamicSQL_findByUserCondition - 2019.07.24 at 20h 29m 28s.xml">
+      <configuration name="Test_DynamicSQL.findByUserCondition" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_mybatis_findAll - 2019.07.23 at 21h 42m 30s.xml">
-      <configuration name="Test_mybatis.findAll" configurationId="JUnit" />
+    <history-entry file="Test_DynamicSQL_findByUserCondition - 2019.07.24 at 20h 29m 57s.xml">
+      <configuration name="Test_DynamicSQL.findByUserCondition" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_mybatis_findAll - 2019.07.23 at 21h 43m 03s.xml">
-      <configuration name="Test_mybatis.findAll" configurationId="JUnit" />
+    <history-entry file="Test_DynamicSQL_findByUserCondition - 2019.07.24 at 20h 30m 24s.xml">
+      <configuration name="Test_DynamicSQL.findByUserCondition" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_mybatis_findAll - 2019.07.23 at 21h 44m 27s.xml">
-      <configuration name="Test_mybatis.findAll" configurationId="JUnit" />
+    <history-entry file="Test_DynamicSQL_findByUserCondition - 2019.07.24 at 20h 32m 47s.xml">
+      <configuration name="Test_DynamicSQL.findByUserCondition" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_mybatis_findAll - 2019.07.23 at 21h 54m 25s.xml">
-      <configuration name="Test_mybatis.findAll" configurationId="JUnit" />
+    <history-entry file="Test_DynamicSQL_findByUserCondition - 2019.07.24 at 20h 40m 31s.xml">
+      <configuration name="Test_DynamicSQL.findByUserCondition" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_mybatis_findAll - 2019.07.23 at 21h 56m 47s.xml">
-      <configuration name="Test_mybatis.findAll" configurationId="JUnit" />
+    <history-entry file="Test_DynamicSQL_findByUserCondition - 2019.07.24 at 20h 40m 39s.xml">
+      <configuration name="Test_DynamicSQL.findByUserCondition" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_DynamicSQL_findAll - 2019.07.23 at 22h 01m 34s.xml">
-      <configuration name="Test_DynamicSQL.findAll" configurationId="JUnit" />
+    <history-entry file="Test_DynamicSQL_findByIds - 2019.07.24 at 21h 04m 13s.xml">
+      <configuration name="Test_DynamicSQL.findByIds" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_DynamicSQL_findAll - 2019.07.23 at 22h 15m 56s.xml">
-      <configuration name="Test_DynamicSQL.findAll" configurationId="JUnit" />
+    <history-entry file="Test_DynamicSQL_findByIds - 2019.07.24 at 21h 04m 51s.xml">
+      <configuration name="Test_DynamicSQL.findByIds" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_DynamicSQL_findAll - 2019.07.23 at 22h 16m 51s.xml">
-      <configuration name="Test_DynamicSQL.findAll" configurationId="JUnit" />
+    <history-entry file="Test_DynamicSQL_findByIds - 2019.07.24 at 21h 06m 24s.xml">
+      <configuration name="Test_DynamicSQL.findByIds" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_DynamicSQL_findAll - 2019.07.23 at 22h 17m 06s.xml">
-      <configuration name="Test_DynamicSQL.findAll" configurationId="JUnit" />
+    <history-entry file="Test_DynamicSQL_findByIds - 2019.07.24 at 21h 06m 59s.xml">
+      <configuration name="Test_DynamicSQL.findByIds" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51568000" />
+    <option name="totallyTimeSpent" value="57517000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-28" width="1920" height="1108" extended-state="0" />
@@ -539,7 +549,7 @@
       <window_info id="Image Layers" order="5" />
       <window_info content_ui="combo" id="Project" order="6" sideWeight="0.4992785" visible="true" weight="0.1631016" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Console" order="0" weight="0.32913843" />
+      <window_info active="true" anchor="bottom" id="Database Console" order="0" visible="true" weight="0.32913843" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.29235238" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="3" />
@@ -548,12 +558,12 @@
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.32913843" />
-      <window_info active="true" anchor="bottom" id="Run" order="9" visible="true" weight="0.32720232" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.32720232" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.3078451" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="13" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.3286991" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.3281704" />
       <window_info anchor="right" auto_hide="true" id="Maven" order="0" weight="0.32994652" />
       <window_info anchor="right" id="Palette" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
@@ -696,20 +706,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e53af34b-19a4-4d1b-9446-665c4241695b/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/userDao/userDao.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -724,16 +720,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
           <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dynamicSQL/DynamicSQLDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -757,10 +743,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="60" column="13" lean-forward="true" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/QueryIds.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#104#105#0" expanded="true" />
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#99#100#0" expanded="true" />
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e53af34b-19a4-4d1b-9446-665c4241695b/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dynamicSQL/DynamicSQLDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Test_DynamicSQL.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="373">
+          <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -769,8 +794,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/userDaoConf.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="130">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
         </state>
       </provider>
     </entry>

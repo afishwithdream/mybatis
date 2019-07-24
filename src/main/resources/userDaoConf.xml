@@ -8,9 +8,29 @@
         select * from User.user;
     </select>
     <!--动态查询,if标签-->
-    <select id="findByUserCondition" resultType="domain.User">
-        <if test="userName==null">
-            select * from User.user;
-        </if>
+    <select id="findByUserCondition" resultType="domain.User" parameterType="domain.User">
+<!--动态查询,判断传入的参数 name是否为null.  拼接查询语句 相当于select * from tab_user where {if name != null : name =name}-->
+        select * from user.tab_user
+        <where>
+            <if test="name!=null">
+                and name=#{name}
+            </if>
+        </where>
+
+    </select>
+
+    <!--范围查询 foreach标签 . -->
+    <select id="findByIds" resultType="domain.User" parameterType="Integer">
+        select * from user.tab_user
+        <where>
+                <!--集合不为null,且长度大于0-->
+            <if test="ids != null and ids.size() > 0">
+                <!--遍历集合ids,以 and in 开始,拼接sql语句,将遍历的结果id放在语句中.-->
+                <foreach collection="ids" open="and id in (" close=")" item="id" separator=",">
+                    <!--查询条件-->
+                    #{id}
+                </foreach>
+            </if>
+        </where>
     </select>
 </mapper>
