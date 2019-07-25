@@ -33,4 +33,14 @@
             </if>
         </where>
     </select>
+
+    <!--抽取相同的内容, sql标签-->
+    <!--<sql id="selectAll">
+        select *
+        from user.tab_user;
+    </sql>
+    &lt;!&ndash;引用sql抽取的语句&ndash;&gt;
+    <select id="findAll" resultType="domain.User">
+        <include refid="selectAll"></include>
+    </select>-->
 </mapper>
