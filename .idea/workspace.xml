@@ -498,7 +498,7 @@
       <workItem from="1562857454997" duration="3031000" />
       <workItem from="1563124411045" duration="4646000" />
       <workItem from="1563281076305" duration="12276000" />
-      <workItem from="1563797024842" duration="18642000" />
+      <workItem from="1563797024842" duration="19276000" />
     </task>
     <servers />
   </component>
@@ -535,11 +535,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59701000" />
+    <option name="totallyTimeSpent" value="60335000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-28" width="1920" height="1108" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
@@ -547,10 +546,10 @@
       <window_info auto_hide="true" id="Favorites" order="3" sideWeight="0.5007215" side_tool="true" weight="0.16096257" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Image Layers" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.4992785" visible="true" weight="0.1631016" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.4992785" visible="true" weight="0.1631016" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.32913843" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.29235238" />
+      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.29235238" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
